@@ -27,7 +27,7 @@ st.caption(
 @st.cache_data
 def load_knowledge_base():
     return pd.read_excel(
-        "BioSoil-AI",
+        "BioSoil-AI.xlsx",
         sheet_name="Bacteria_KB"
     )
 
